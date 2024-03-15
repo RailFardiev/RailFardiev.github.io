@@ -1,0 +1,32 @@
+.name p {
+    font-size: 3em;
+    margin: 40px; 
+    font-weight: 600;
+}
+.lowName p {
+    font-size: 2em;
+    margin: 20px;   
+}
+
+main .galvnaya .ssilka a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #000000;
+    margin: 0 20px;
+}   
+main .galvnaya .ssilka a{
+    color: black;
+    font-weight: 800;
+    padding-bottom: 70px;
+    /*border-bottom: 3px solid #5350f2;*/
+}
+
+@media screen and (max-width: 767px) {
+    .name p {
+        font-size: 2em;
+    }
+    .lowName p {
+        font-size: 1em;
+        margin: 15px;   
+    }
+}
